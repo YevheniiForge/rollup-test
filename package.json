@@ -1,5 +1,5 @@
 {
-  "name": "rollup-test",
+  "name": "rollup-test-npm",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "sideEffects": [
