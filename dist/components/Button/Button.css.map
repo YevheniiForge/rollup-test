@@ -1,0 +1,1 @@
+{"version":3,"sources":["Button.module.css"],"names":[],"mappings":"AAAA;EACE,wBAAgB;KAAhB,qBAAgB;UAAhB,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,2BAA2B;EAC3B,YAAY;EACZ,eAAe;AACjB","file":"Button.module.css","sourcesContent":[".root {\n  appearance: none;\n  border-radius: 10px;\n  padding: 15px;\n  border: 1px solid var(blue);\n  color: green;\n  background: red;\n}\n"]}
