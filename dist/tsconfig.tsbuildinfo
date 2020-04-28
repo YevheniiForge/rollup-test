@@ -133,9 +133,13 @@
         "version": "2c79f9773e1bb0a6adf2856cbbfd6c5ac83f4c07acbcf1c97d6cd6825479b62d",
         "signature": "89fd3a3a47f2fdf0533e39c2a11bd4797719cceb94c71147db668a4b73f3366b"
       },
+      "../src/components/secondbutton/secondbutton.tsx": {
+        "version": "e5f3aff576cf41612b6082c846ba727a18a9473a139e51ab6a67c4e3c876153a",
+        "signature": "b16726b39c46833a8d2ac25e9d1bc4bf172b9ff7ca69076e0d7993868e229c3e"
+      },
       "../src/index.ts": {
-        "version": "3748ad3772df0adfc19d973583715beadc94e71e3a555c83633b21dd2180ca77",
-        "signature": "875e97c08c7d7872ba416e0557e1a70435a2043ceeca4fafb4038ccc33e9773a"
+        "version": "04c504652d1ef4bcb5ba106d3d598bfc0bc1fad2fab5ab488b64726db52aaf90",
+        "signature": "f7fd59d99bdd28942505538fd4f4398dc6ba9738f755c36a11df20a02e4cfba8"
       }
     },
     "options": {
@@ -170,15 +174,24 @@
         "../node_modules/@types/react/index.d.ts",
         "../global.d.ts"
       ],
+      "../src/components/secondbutton/secondbutton.tsx": [
+        "../node_modules/@types/react/index.d.ts",
+        "../global.d.ts"
+      ],
       "../src/index.ts": [
         "../global.d.ts",
-        "../src/components/button/button.tsx"
+        "../src/components/button/button.tsx",
+        "../src/components/secondbutton/secondbutton.tsx"
       ]
     },
     "exportedModulesMap": {
       "../src/index.ts": [
         "../global.d.ts",
-        "../src/components/button/button.tsx"
+        "../src/components/button/button.tsx",
+        "../src/components/secondbutton/secondbutton.tsx"
+      ],
+      "../src/components/secondbutton/secondbutton.tsx": [
+        "../node_modules/@types/react/index.d.ts"
       ],
       "../src/components/button/button.tsx": [
         "../node_modules/@types/react/index.d.ts"
@@ -196,6 +209,7 @@
       "../node_modules/@types/prop-types/index.d.ts",
       "../node_modules/@types/react/index.d.ts",
       "../src/components/button/button.tsx",
+      "../src/components/secondbutton/secondbutton.tsx",
       "../src/index.ts",
       "../node_modules/typescript/lib/lib.es2015.d.ts",
       "../node_modules/typescript/lib/lib.es2016.d.ts",
