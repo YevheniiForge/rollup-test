@@ -8,7 +8,8 @@ var SecondButton = function SecondButton(_ref) {
       ButtonElement = _ref$elementType === void 0 ? "button" : _ref$elementType,
       onClick = _ref.onClick;
   return /*#__PURE__*/React$1.createElement(ButtonElement, Object.assign({
-    className: rootSecond,
+    className: rootSecond // className="rootSecond"
+    ,
     onClick: onClick
   }, ButtonElement === "button" ? {
     type: "button"

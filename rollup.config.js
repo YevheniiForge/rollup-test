@@ -4,7 +4,6 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import postcssImport from "postcss-import";
 import postcssEnv from "postcss-preset-env";
-import scss from "rollup-plugin-scss";
 
 const extensions = [".js", ".jsx", ".ts", ".tsx"];
 
@@ -15,8 +14,6 @@ const globals = {
 };
 
 const globalModules = Object.keys(globals);
-
-const sourceMap = true;
 
 export default {
   input: {
@@ -29,7 +26,7 @@ export default {
       dir: "dist",
       format: "esm",
       globals,
-      sourcemap: sourceMap,
+      sourcemap: true,
       preferConst: true,
     },
   ],
@@ -40,19 +37,19 @@ export default {
       namedExports: {},
     }),
     babel({
-      sourceMap,
+      sourceMap: true,
       extensions,
       include: ["src/**/*"],
-      exclude: ["node_modules/**", "**/*.css"],
+      exclude: ["node_modules/**", "**/*.css", "**/*.scss"],
     }),
-    scss(),
     postcss({
       plugins: [postcssImport(), postcssEnv()],
       namedExports: true,
       modules: {
         generateScopedName: "[folder]_[local]-[hash:base64:5]",
       },
-      sourceMap,
+      modules: true,
+      sourceMap: true,
       configFile: false,
       extract: true,
       preserveModules: true,

@@ -1,5 +1,5 @@
-var rootSecond = "SecondButton_rootSecond-1l-PZ";
-const SecondButton_module = {"rootSecond":"SecondButton_rootSecond-1l-PZ"};
+var rootSecond = "SecondButton-module_rootSecond__1l-PZ";
+const SecondButton_module = {"rootSecond":"SecondButton-module_rootSecond__1l-PZ"};
 
 export default SecondButton_module;
 export { rootSecond };

@@ -130,11 +130,11 @@
         "signature": "e726c865f71af8f20d4a03e17182f62a38e1fd300161b867dc6068ce6529f7f2"
       },
       "../src/components/button/button.tsx": {
-        "version": "64cb3686e9b6102a9a4eff9c96a47e5ff76df4d4ba28d99b0ac5e49175915c99",
+        "version": "49946ec54ea8d59b01443841cbce76cc6a72dbe90612f75d7b76d40eef76a3b6",
         "signature": "89fd3a3a47f2fdf0533e39c2a11bd4797719cceb94c71147db668a4b73f3366b"
       },
       "../src/components/secondbutton/secondbutton.tsx": {
-        "version": "7caccd423b4ad9c41b3ffc76ab0d7b8b99acc09bdba7d73a942886841e9b58b3",
+        "version": "c1db8b1db5c0e0868d1af8b303ad879505adc3ce7e32590388d4a20b0714bfc4",
         "signature": "b16726b39c46833a8d2ac25e9d1bc4bf172b9ff7ca69076e0d7993868e229c3e"
       },
       "../src/index.ts": {

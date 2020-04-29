@@ -1,5 +1,3 @@
-/* @import "modern-css-reset"; */
-
 .Button-module_root__2n3wi {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -10,10 +8,3 @@
   color: green;
   background: red;
 }
-
-.SecondButton-module_rootSecond__1l-PZ {
-  height: 400px;
-  width: 400px;
-  border-radius: 50%; }
-
-/*# sourceMappingURL=index.css.map */

@@ -1,15 +1,17 @@
 {
-  "name": "rollup-test-npm",
+  "name": "rollup-test",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "sideEffects": [
     "*.css",
     "*.scss"
   ],
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Example Component Library",
   "scripts": {
-    "build": "rm -rf ./dist && rollup -c ./rollup.config.js && tsc"
+    "build": "rm -rf ./dist && rollup -c ./rollup.config.js && tsc",
+    "build:watch": "rm -rf ./dist && rollup -c -w ./rollup.config.js && tsc",
+    "watch": "cd dist && react-scripts start"
   },
   "keywords": [],
   "author": "",
@@ -43,7 +45,6 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-clean": "^1.0.0",
     "rollup-plugin-postcss": "git+https://github.com/LukeChannings/rollup-plugin-postcss.git",
-    "rollup-plugin-scss": "^2.4.0",
     "typescript": "^3.7.5"
   },
   "browserslist": [

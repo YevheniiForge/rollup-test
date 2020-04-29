@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 
-import { root } from "./Button.module.scss";
+import { root } from "./Button.module.css";
+// import "./Button.module.css";
 
 interface ButtonProps {
   children: ReactNode;
@@ -14,10 +15,11 @@ export const Button = ({
   onClick,
 }: ButtonProps) => (
   <ButtonElement
+    // className="root"
     className={root}
     onClick={onClick}
     {...(ButtonElement === "button" ? { type: "button" } : {})}
   >
-    {children}
+    {children}---------
   </ButtonElement>
 );
