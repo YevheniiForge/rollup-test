@@ -1,0 +1,10 @@
+.Button_root-2n3wi {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid var(blue);
+  color: green;
+  background: red;
+}

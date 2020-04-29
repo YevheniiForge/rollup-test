@@ -5,7 +5,7 @@
   "sideEffects": [
     "*.css"
   ],
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Example Component Library",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c ./rollup.config.js && tsc"
@@ -40,8 +40,9 @@
     "rollup": "^1.29.1",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-clean": "^1.0.0",
-    "rollup-plugin-postcss": "^3.1.1",
-    "typescript": "^3.7.5"
+    "rollup-plugin-postcss": "git+https://github.com/LukeChannings/rollup-plugin-postcss.git",
+    "typescript": "^3.7.5",
+    "rollup-plugin-typescript2": "^0.25.3"
   },
   "browserslist": [
     "defaults"
