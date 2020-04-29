@@ -1,4 +1,3 @@
-import "./SecondButton.css";
 var root = "SecondButton_root-1cz0s";
 const SecondButton_module = {"root":"SecondButton_root-1cz0s"};
 
