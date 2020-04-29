@@ -134,8 +134,8 @@
         "signature": "89fd3a3a47f2fdf0533e39c2a11bd4797719cceb94c71147db668a4b73f3366b"
       },
       "../src/components/secondbutton/secondbutton.tsx": {
-        "version": "e5f3aff576cf41612b6082c846ba727a18a9473a139e51ab6a67c4e3c876153a",
-        "signature": "b16726b39c46833a8d2ac25e9d1bc4bf172b9ff7ca69076e0d7993868e229c3e"
+        "version": "b50ad298a39370e690637f93be79a8bfc9616a833da8b6549a7290e02fce598f",
+        "signature": "932bca4086f064f813174da5d2fdaf049e8460d30ba4e07b141a3316500544db"
       },
       "../src/index.ts": {
         "version": "04c504652d1ef4bcb5ba106d3d598bfc0bc1fad2fab5ab488b64726db52aaf90",
@@ -191,6 +191,7 @@
         "../src/components/secondbutton/secondbutton.tsx"
       ],
       "../src/components/secondbutton/secondbutton.tsx": [
+        "../global.d.ts",
         "../node_modules/@types/react/index.d.ts"
       ],
       "../src/components/button/button.tsx": [

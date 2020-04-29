@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 
-import { root } from "./SecondButton.module.css";
+import "./SecondButton.module.css";
 
 interface BSecondButtonProps {
   children: ReactNode;
@@ -14,7 +14,7 @@ export const SecondButton = ({
   onClick,
 }: BSecondButtonProps) => (
   <ButtonElement
-    className={root}
+    className="rootSecond"
     onClick={onClick}
     {...(ButtonElement === "button" ? { type: "button" } : {})}
   >

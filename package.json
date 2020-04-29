@@ -5,7 +5,7 @@
   "sideEffects": [
     "*.css"
   ],
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Example Component Library",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c ./rollup.config.js && tsc"

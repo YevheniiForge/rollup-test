@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import "./SecondButton.module.css";
 interface BSecondButtonProps {
     children: ReactNode;
     elementType?: "button" | "a";

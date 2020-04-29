@@ -1,6 +1,6 @@
-var root = "SecondButton_root-1cz0s";
-const SecondButton_module = {"root":"SecondButton_root-1cz0s"};
+var rootSecond = "SecondButton_rootSecond-32uij";
+const SecondButton_module = {"rootSecond":"SecondButton_rootSecond-32uij"};
 
 export default SecondButton_module;
-export { root };
+export { rootSecond };
 //# sourceMappingURL=SecondButton.module.css.js.map
