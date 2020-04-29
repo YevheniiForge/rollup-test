@@ -3,9 +3,10 @@
   "module": "dist/index.js",
   "main": "dist/index.js",
   "sideEffects": [
-    "*.css"
+    "*.css",
+    ".scss"
   ],
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Example Component Library",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c ./rollup.config.js && tsc"
@@ -14,7 +15,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "modern-css-reset": "^1.0.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
@@ -31,17 +31,14 @@
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-typescript": "^2.1.0",
-    "@types/mini-css-extract-plugin": "^0.9.0",
     "@types/react": "^16.9.19",
-    "@wessberg/rollup-plugin-ts": "^1.2.13",
-    "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0",
+    "@rollup/plugin-babel": "^5.0.0",
     "rollup": "^1.29.1",
     "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-clean": "^1.0.0",
-    "rollup-plugin-postcss": "git+https://github.com/LukeChannings/rollup-plugin-postcss.git",
-    "rollup-plugin-typescript2": "^0.25.3",
-    "typescript": "^3.7.5"
+    "rollup-plugin-postcss": "^3.1.1",
+    "postcss-import": "^12.0.1",
+    "typescript": "^3.7.5",
+    "modern-css-reset": "^1.0.4"
   },
   "browserslist": [
     "defaults"

@@ -3,7 +3,6 @@ import postcss from "rollup-plugin-postcss";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import postcssImport from "postcss-import";
-import postcssEnv from "postcss-preset-env";
 
 const extensions = [".js", ".jsx", ".ts", ".tsx"];
 
@@ -45,7 +44,7 @@ export default {
       exclude: ["node_modules/**", "**/*.css"],
     }),
     postcss({
-      plugins: [postcssImport(), postcssEnv()],
+      plugins: [postcssImport()],
       namedExports: true,
       modules: {
         generateScopedName: "[folder]_[local]-[hash:base64:5]",
