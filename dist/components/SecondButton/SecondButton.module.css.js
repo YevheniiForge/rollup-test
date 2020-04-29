@@ -1,3 +1,4 @@
+import "./SecondButton.css";
 var rootSecond = "SecondButton_rootSecond-32uij";
 const SecondButton_module = {"rootSecond":"SecondButton_rootSecond-32uij"};
 
