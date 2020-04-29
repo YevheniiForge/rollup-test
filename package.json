@@ -15,8 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "modern-css-reset": "^1.0.4"
+    "react-dom": "^16.12.0"
   },
   "peerDependencies": {
     "react": "^16.12.0",
@@ -41,7 +40,8 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-clean": "^1.0.0",
     "rollup-plugin-postcss": "git+https://github.com/LukeChannings/rollup-plugin-postcss.git",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "modern-css-reset": "^1.0.4"
   },
   "browserslist": [
     "defaults"
