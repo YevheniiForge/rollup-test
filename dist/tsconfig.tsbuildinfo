@@ -110,8 +110,8 @@
         "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
       },
       "../global.d.ts": {
-        "version": "35d26ea66c86da9701e4f4b467913481ffeae910761cea34c775c5dacb7f8eaa",
-        "signature": "35d26ea66c86da9701e4f4b467913481ffeae910761cea34c775c5dacb7f8eaa"
+        "version": "13f95438456398ff5fcbd6334710502058c6cacd21053df885310679400a04b2",
+        "signature": "13f95438456398ff5fcbd6334710502058c6cacd21053df885310679400a04b2"
       },
       "../node_modules/@types/react/global.d.ts": {
         "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
@@ -130,12 +130,12 @@
         "signature": "e726c865f71af8f20d4a03e17182f62a38e1fd300161b867dc6068ce6529f7f2"
       },
       "../src/components/button/button.tsx": {
-        "version": "2c79f9773e1bb0a6adf2856cbbfd6c5ac83f4c07acbcf1c97d6cd6825479b62d",
+        "version": "64cb3686e9b6102a9a4eff9c96a47e5ff76df4d4ba28d99b0ac5e49175915c99",
         "signature": "89fd3a3a47f2fdf0533e39c2a11bd4797719cceb94c71147db668a4b73f3366b"
       },
       "../src/components/secondbutton/secondbutton.tsx": {
-        "version": "b50ad298a39370e690637f93be79a8bfc9616a833da8b6549a7290e02fce598f",
-        "signature": "932bca4086f064f813174da5d2fdaf049e8460d30ba4e07b141a3316500544db"
+        "version": "7caccd423b4ad9c41b3ffc76ab0d7b8b99acc09bdba7d73a942886841e9b58b3",
+        "signature": "b16726b39c46833a8d2ac25e9d1bc4bf172b9ff7ca69076e0d7993868e229c3e"
       },
       "../src/index.ts": {
         "version": "04c504652d1ef4bcb5ba106d3d598bfc0bc1fad2fab5ab488b64726db52aaf90",
@@ -191,7 +191,6 @@
         "../src/components/secondbutton/secondbutton.tsx"
       ],
       "../src/components/secondbutton/secondbutton.tsx": [
-        "../global.d.ts",
         "../node_modules/@types/react/index.d.ts"
       ],
       "../src/components/button/button.tsx": [

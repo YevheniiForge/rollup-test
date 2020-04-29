@@ -1,1 +1,0 @@
-{"version":3,"sources":["SecondButton.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,YAAY;EACZ,kBAAkB;AACpB","file":"SecondButton.module.css","sourcesContent":[".rootSecond {\n  height: 400px;\n  width: 400px;\n  border-radius: 50%;\n}\n"]}

@@ -4,6 +4,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import postcssImport from "postcss-import";
 import postcssEnv from "postcss-preset-env";
+import scss from "rollup-plugin-scss";
 
 const extensions = [".js", ".jsx", ".ts", ".tsx"];
 
@@ -44,6 +45,7 @@ export default {
       include: ["src/**/*"],
       exclude: ["node_modules/**", "**/*.css"],
     }),
+    scss(),
     postcss({
       plugins: [postcssImport(), postcssEnv()],
       namedExports: true,

@@ -3,9 +3,10 @@
   "module": "dist/index.js",
   "main": "dist/index.js",
   "sideEffects": [
-    "*.css"
+    "*.css",
+    "*.scss"
   ],
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Example Component Library",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c ./rollup.config.js && tsc"
@@ -35,12 +36,14 @@
     "@types/react": "^16.9.19",
     "@wessberg/rollup-plugin-ts": "^1.2.24",
     "modern-css-reset": "^1.0.4",
+    "node-sass": "^4.13.1",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
     "rollup": "^2.7.3",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-clean": "^1.0.0",
     "rollup-plugin-postcss": "git+https://github.com/LukeChannings/rollup-plugin-postcss.git",
+    "rollup-plugin-scss": "^2.4.0",
     "typescript": "^3.7.5"
   },
   "browserslist": [

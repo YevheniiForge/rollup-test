@@ -1,6 +1,6 @@
 import 'core-js/modules/es.object.assign';
 import React$1 from 'react';
-import { root } from './Button.module.css.js';
+import { root } from './Button.module.scss.js';
 
 var Button = function Button(_ref) {
   var children = _ref.children,
