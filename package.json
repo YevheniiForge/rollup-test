@@ -36,7 +36,7 @@
     "@types/react": "^16.9.19",
     "@wessberg/rollup-plugin-ts": "^1.2.24",
     "modern-css-reset": "^1.0.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
     "rollup": "^2.7.3",
